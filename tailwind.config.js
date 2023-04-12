@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'boat':"url('/bnboat.PNG')"
+      },
       animation: {
         navIn: 'fadeInNav 2s ease-in-out'
       },
@@ -22,6 +25,7 @@ module.exports = {
 
       })
     },
+
   },
   plugins: [
     require('flowbite/plugin')

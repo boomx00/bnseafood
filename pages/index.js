@@ -43,7 +43,7 @@ const [scrolled , setScrolled] = useState(false)
       
 
       </Head>
-      <Navbar scrolled={scrolled}></Navbar>
+      <Navbar scrolled={scrolled} logo={false}></Navbar>
       <MainPage></MainPage>
 
     
